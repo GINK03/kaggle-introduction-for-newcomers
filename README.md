@@ -61,8 +61,9 @@ KaggleがDataScienceに携わるものの価値の可視化の基軸の一つに
   通常のKernelの進歩を考えない、初期だけ参照する、コンペティションの参加例だとこのようにすればある程度の進捗を得ることができます。  
   
 <div align="center">
-  <img width="450px" src="https://user-images.githubusercontent.com/4949982/40220688-01eb2f08-5ab5-11e8-8474-550f10128e22.png">
+  <img width="750px" src="https://user-images.githubusercontent.com/4949982/40220688-01eb2f08-5ab5-11e8-8474-550f10128e22.png">
 </div>
+<div align="center"> 図1. Kernelの進歩を考えない進捗モデル </div>
  
 
   
