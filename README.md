@@ -64,7 +64,8 @@ KaggleがDataScienceに携わるものの価値の可視化の基軸の一つに
   <img width="750px" src="https://user-images.githubusercontent.com/4949982/40220688-01eb2f08-5ab5-11e8-8474-550f10128e22.png">
 </div>
 <div align="center"> 図1. Kernelの進歩を考えない進捗モデル </div>
- 
+
+最初の一月ぐらいは私は以下のような戦い方にしてしまって、過剰に消耗してしまいました。  
 <div align="center">
   <img width="750px" src="https://user-images.githubusercontent.com/4949982/40224014-dd0cf620-5abf-11e8-8b31-c9fcea4f8135.png">
 </div>
