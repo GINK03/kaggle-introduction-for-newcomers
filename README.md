@@ -65,5 +65,7 @@ KaggleがDataScienceに携わるものの価値の可視化の基軸の一つに
 </div>
 <div align="center"> 図1. Kernelの進歩を考えない進捗モデル </div>
  
-
-  
+<div align="center">
+  <img width="750px" src="https://user-images.githubusercontent.com/4949982/40224014-dd0cf620-5abf-11e8-8b31-c9fcea4f8135.png">
+</div>
+<div align="center"> 図2. 赤で囲まれたイタレーションを回しているうちに、コンペが終了してしまう </div>
