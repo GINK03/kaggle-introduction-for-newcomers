@@ -88,3 +88,6 @@ Python3かPython2かならば、数多くのKernelがPython3を暗黙の標準�
 
 Pythonでは、データ操作にPandasとNumpyが圧倒的に使われます。  
 
+また、データ量の多いコンペティションもたくさん出題されていて、普通に全量を扱おうとすると、BigQueryなどのSQLが使えるビッグデータ処理基板が必要になります。  
+MapReduce系のアーキテクチャとは、後述するデータ構造の関係で、行志向と列志向だと、列志向のイメージと処理フローなので、行志向のMapReduceとはあまり相性がよくありません（Kaggle TalkinData AdFrad Detectionでこれで大いに死にました。。）  
+
