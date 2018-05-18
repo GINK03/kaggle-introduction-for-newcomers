@@ -70,3 +70,13 @@ KaggleがDataScienceに携わるものの価値の可視化の基軸の一つに
   <img width="750px" src="https://user-images.githubusercontent.com/4949982/40224014-dd0cf620-5abf-11e8-8b31-c9fcea4f8135.png">
 </div>
 <div align="center"> 図2. 赤で囲まれたイタレーションを回しているうちに、コンペが終了してしまう </div>
+
+効率の悪い局所ループにハマった状態なので、なんとか、脱出しないといけません。  
+
+教科学習の知恵ですが、たまに、乱択を入れることで、ダイバーシティを維持することがあります。そんなこんなで、意識的にこのような経路に変更しました。  
+(α, βはコンペによって設定される 0 ~ 1の値)  
+
+<div align="center">
+  <img width="750px" src="https://user-images.githubusercontent.com/4949982/40225066-08aa040a-5ac3-11e8-8229-648daaef02be.png">
+</div>
+<div align="center"> 図3. 例えば、外部のリソース参照の経路を確率的につくる </div>
