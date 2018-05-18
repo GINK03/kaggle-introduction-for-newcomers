@@ -84,10 +84,19 @@ KaggleがDataScienceに携わるものの価値の可視化の基軸の一つに
 ## 6. 挑み方(ツール類)
 PythonかRのどちらを使うかまずは決めましょう。  
 
-Python3かPython2かならば、数多くのKernelがPython3を暗黙の標準としてなっているので、Python3でいいのでしょう。  
-
 Pythonでは、データ操作にPandasとNumpyが圧倒的に使われます。  
 
-また、データ量の多いコンペティションもたくさん出題されていて、普通に全量を扱おうとすると、BigQueryなどのSQLが使えるビッグデータ処理基板が必要になります。  
-MapReduce系のアーキテクチャとは、後述するデータ構造の関係で、行志向と列志向だと、列志向のイメージと処理フローなので、行志向のMapReduceとはあまり相性がよくありません（Kaggle TalkinData AdFrad Detectionでこれで大いに死にました。。）  
+以下のライブラリとソフトウェアをよく見ます  
+- Python3
+- Pandas
+- Numpy
+- ScikitLearn
+- lightgbm
+- xgboost
+- keras
 
+また、データ量の多いコンペティションもたくさん出題されていて、普通に全量を扱おうとすると、BigQueryなどのSQLが使えるビッグデータ処理基板が必要になります。  
+MapReduce系のアーキテクチャとは、後述するデータ構造の関係で、行志向と列志向だと、列志向のイメージと処理フローなので、行志向のMapReduceとはあまり相性がよくありません（Kaggle TalkinData Detectionでこれで大いに死にました。。）  
+
+Kernelに登場しない処理方法
+- BigQuery
