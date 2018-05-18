@@ -80,3 +80,11 @@ KaggleがDataScienceに携わるものの価値の可視化の基軸の一つに
   <img width="750px" src="https://user-images.githubusercontent.com/4949982/40225066-08aa040a-5ac3-11e8-8229-648daaef02be.png">
 </div>
 <div align="center"> 図3. 例えば、外部のリソース参照の経路を確率的につくる </div>
+
+## 6. 挑み方(ツール類)
+PythonかRのどちらを使うかまずは決めましょう。  
+
+Python3かPython2かならば、数多くのKernelがPython3を暗黙の標準としてなっているので、Python3でいいのでしょう。  
+
+Pythonでは、データ操作にPandasとNumpyが圧倒的に使われます。  
+
