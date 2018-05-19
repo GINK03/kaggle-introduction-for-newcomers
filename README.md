@@ -175,4 +175,18 @@ isinstance(gp, pd.core.groupby.DataFrameGroupBy) # パッケージの名前空�
   <img width="750px" src="https://user-images.githubusercontent.com/4949982/40265842-083c2e7c-5b7b-11e8-99ae-dd961bf234c3.png">
 </div>
 <div align="center"> 図8. 設定したキーで小さいDataFrameで分割されてGroupByで更にまとめている </div>
+
+Pandasのgroupbyを利用して、indexで分散して、小さいDataFrameを作成して、multiprocessingを行うこともできます。  
+```python
+import concurrent.futures
+
+df['index'] = df.index
+df['distribute'] = df['index'].apply(lambda x: x%16)
+dfs = [ _df for key, _df in df.groupby('distribute') ]
+
+def pmap(df):
+    # do something.
+    pass
+with concurrent.futures.ProcessPoolExecutor(max_workers=16) as exe:
+    exe.map(pmap, dfs)
 ```
