@@ -168,6 +168,6 @@ df.head()
 ```python
 gp = dfslice.groupby('Donor City')
 
-isinstance(gp, pd.core.groupby.DataFrameGroupBy)
+isinstance(gp, pd.core.groupby.DataFrameGroupBy) # パッケージの名前空間からしてわかりにくい...
 >> True
 ```
