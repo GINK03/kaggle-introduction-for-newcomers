@@ -138,4 +138,23 @@ donor_series = df[ 'Donor ID' ] # カラム名 Donor IDのSeriesが帰る
 isinstance(donor_series, pd.Series)
 >> True
 ```
-
+Seriesに対する操作は、変換関数を定義して、変換することができます。  
+<div align="center">
+  <img width="550px" src="https://user-images.githubusercontent.com/4949982/40265603-4eacb4da-5b76-11e8-84c6-6adb2f125b3b.png">
+</div>
+<div align="center"> 図6.  </div>
+ZIP Codeをintに変換でき、かつ、偶数なら２倍し、奇数ならばそのままで、文字列ならば、-1にします  
+```python
+def f(x):
+    try:
+        x = int(x)
+        if x%2 == 0:
+            return x*2
+        else:
+            return x
+    except Exception as ex:
+        return -1
+df['Donor Zip'] = df['Donor Zip'].fillna(0)
+df['Donor Zip'] = df['Donor Zip'].apply(lambda x:f(x))
+df.head()
+```
