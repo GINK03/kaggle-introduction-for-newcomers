@@ -106,4 +106,12 @@ Pandasのデータ構造が列志向という方法を採用しており、こ�
 
 列志向は、分散処理に向かないという側面がありますが、なんだかんだで便利です。  
 
+<div align="center">
+  <img width="750px" src="https://user-images.githubusercontent.com/4949982/40265067-012854da-5b6c-11e8-9540-93aba1bc77d5.png">
+</div>
+<div align="center"> 図4. PandasのDataFrameはSeriesのオブジェクトを束ねた列志向になっています </div>
+
+列志向は、Pandas作者の[Wes McKinny](http://wesmckinney.com/)がよく使う方法で、Apache Arrowなどの処理基板方式を横断したDataFrameを推進していらっしゃいます。  
+
+
 
