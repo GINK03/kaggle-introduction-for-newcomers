@@ -114,3 +114,13 @@ Pandasのデータ構造が列志向という方法を採用しており、こ�
 列志向は、Pandas作者の[Wes McKinny](http://wesmckinney.com/)がよく使う方法で、Apache Arrowなどの処理基板方式を横断したDataFrameを推進していらっしゃいます。  
 
 なんらかのKeyを必要としない処理方式なので、Map ReduceなどKeyをハッシングして、大規模分散する発想とは違ったものです。  
+
+幾つかプリミティブな動作を示します。これらの組み合わせて殆どのデータマニピュレーションが可能になります。  
+
+KaggleのOpenDataのDonorsChoose.orgのドナーのデータセットの例で示します。  
+<div align="center">
+  <img width="750px" src="https://user-images.githubusercontent.com/4949982/40265368-ec9e22f0-5b71-11e8-8eca-bef03b339ea4.png">
+</div>
+<div align="center"> 図5. KaggleのDonorDataset </div>
+
+
