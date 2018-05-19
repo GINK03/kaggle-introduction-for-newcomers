@@ -144,6 +144,7 @@ Seriesに対する操作は、変換関数を定義して、変換すること�
 </div>
 <div align="center"> 図6.  </div>
 ZIP Codeをintに変換でき、かつ、偶数なら２倍し、奇数ならばそのままで、文字列ならば、-1にします  
+
 ```python
 def f(x):
     try:
