@@ -113,5 +113,4 @@ Pandasのデータ構造が列志向という方法を採用しており、こ�
 
 列志向は、Pandas作者の[Wes McKinny](http://wesmckinney.com/)がよく使う方法で、Apache Arrowなどの処理基板方式を横断したDataFrameを推進していらっしゃいます。  
 
-
-
+なんらかのKeyを必要としない処理方式なので、Map ReduceなどKeyをハッシングして、大規模分散する発想とは違ったものです。  
