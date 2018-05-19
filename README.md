@@ -160,6 +160,6 @@ df['Donor Zip'] = df['Donor Zip'].apply(lambda x:f(x))
 df.head()
 ```
 <div align="center">
-  <img width="550px" src="https://user-images.githubusercontent.com/4949982/40265667-7ad06858-5b77-11e8-80d7-64f09545ccba.png">
+  <img width="750px" src="https://user-images.githubusercontent.com/4949982/40265667-7ad06858-5b77-11e8-80d7-64f09545ccba.png">
 </div>
 <div align="center"> 図7. 変換後のデータフレーム </div>
