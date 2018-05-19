@@ -123,4 +123,19 @@ KaggleのOpenDataのDonorsChoose.orgのドナーのデータセットの例で�
 </div>
 <div align="center"> 図5. KaggleのDonorDataset </div>
 
+pandasのDataFrameをcolumn名をListで投入して、スライシングすると、DataFrame Objectが帰ります
+```python
+dfslice = df[ ['Donor ID', 'Donor City'] ]  # カラム名 Donor ID, Donor Cityでスライスする（スライスされたDataFrameが帰る）
+
+isinstance(dfslice, pd.DataFrame)
+
+>> True
+```
+今度はDataFrameをcolumnをstrで指定して、スライシングすると、Series Objectが帰ります
+```python
+donor_series = df[ 'Donor ID' ] # カラム名 Donor IDのSeriesが帰る
+
+isinstance(donor_series, pd.Series)
+>> True
+```
 
