@@ -171,3 +171,8 @@ gp = dfslice.groupby('Donor City')
 isinstance(gp, pd.core.groupby.DataFrameGroupBy) # パッケージの名前空間からしてわかりにくい...
 >> True
 ```
+<div align="center">
+  <img width="750px" src="https://user-images.githubusercontent.com/4949982/40265842-083c2e7c-5b7b-11e8-99ae-dd961bf234c3.png">
+</div>
+<div align="center"> 図8. 設定したキーで小さいDataFrameで分割されてGroupByで更にまとめている </div>
+```
