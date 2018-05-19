@@ -163,3 +163,11 @@ df.head()
   <img width="750px" src="https://user-images.githubusercontent.com/4949982/40265667-7ad06858-5b77-11e8-80d7-64f09545ccba.png">
 </div>
 <div align="center"> 図7. 変換後のデータフレーム </div>
+
+パッとみて更にドキュメントが不足しているのが、groupbyです。groupbyは特定のキーで小さなデータフレームに分割して、共通のキーの中で様々なオペレーションができます。  
+```python
+gp = dfslice.groupby('Donor City')
+
+isinstance(gp, pd.core.groupby.DataFrameGroupBy)
+>> True
+```
